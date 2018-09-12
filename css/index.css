@@ -1,0 +1,160 @@
+/* Algemeine TAGS */
+html{
+ padding: 0;
+ margin: 0;
+}
+body{
+ padding: 0;
+ margin: 0;
+ font-family: Tahoma,serif ;
+ background-image: linear-gradient(to bottom,#2EA8ED,#FFF,#2EA8ED);
+}
+header{
+  text-align: center;
+}
+header .container{
+ background-color: #8BC5F2;
+ position: relative;
+}
+header .container ul{
+	padding: 0 ; margin: 0;
+}
+header .container ul li{
+  list-style: none;
+}
+header .container ul li a{
+   display: block;
+   background-color: #4D79BB;
+   text-decoration: none;
+   color: black;
+   //text-align: center;
+   padding: 12px 24px;
+}
+header .container ul li a:hover{
+	color: white;
+	background-color: gray;
+}
+main{
+
+}
+main .container{
+	border-top: 3px solid #4D79BB;
+}
+#content{
+
+}
+#aside{
+ font-size: 90%;
+ background: linear-gradient(to bottom,#2EA8ED,#FFF);	
+}
+footer{
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    font-size: 87%;
+}
+/* Pada6toto Menü */
+.hide{
+	display: none; 
+}
+.menue{
+ position: absolute;
+ padding: 10px 25px;
+ background-color: #555555;
+ color: white;
+ bottom: 10px;
+ right: 50px;
+ border: 2px solid black;
+ border-radius: 5px;
+ font-size: 120%;
+ transition: 3s;
+}
+.menue:hover {
+	box-shadow: inset 5px 5px 15px #FFF, 10px 5px 15px #FFF; 
+	//transform: rotate(15deg);
+	transform: scale(1.05);
+	//transform: rotate(-15deg);
+}
+
+/* Algemeine CLASS's , DIV's TAG's*/
+.container{
+	width: 95%;
+	margin-left: auto;
+	margin-right: auto;
+	background-color: #fff;
+}
+img{
+	max-width: 100%;
+	height: auto;
+	display: block; 
+	opacity: 0.8;
+	transition: 2s;
+}
+/*img:hover{
+	opacity: 1;
+	transform:rotateY(360deg) scale(1.25);
+	position: relative;
+	z-index: 100;*/
+}
+.foto{
+	
+}
+.banner{
+	
+}
+.foto{
+	position: relative;
+	overflow: hidden;
+	transition: 1s;
+}
+.banner{
+	position: absolute;
+	background-color: #000000;
+	color: #fff;
+	opacity: 0.7;
+	bottom: 0;
+	left: 0;
+	margin-left:  10px;
+	margin-right: 10px;
+	padding: 5px;
+	transform: translateY(100%);
+	transition: 1s;
+}
+.foto:hover .banner{
+	transform: translateY(0%);
+ }
+.foto:hover img{
+	opacity: 1;
+}
+.foto:hover {
+	transform: scale(1.1);
+	position: relative;
+	z-index: 2;
+}
+
+
+
+
+.fotoFloat{
+	float: left;
+}
+
+/* Algemeine DIV's */
+.noMarginTop{
+	margin-top: 0;
+}
+.width25Pro{
+	max-width: 25%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
